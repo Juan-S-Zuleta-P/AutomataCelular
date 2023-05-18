@@ -53,10 +53,6 @@ class JuegoDeLaVida:
     def __init__(self, board):
         self.board = board  # Asigna el tablero
 
-    def ini_board(self):
-        # Implementar método para inicializar la tabla según las reglas del juego de la vida
-        pass
-
     def actualizar_Board(self):
         self.board.sobrevive()  # Actualiza el estado del tablero llamando al método sobrevive() del objeto board
 
